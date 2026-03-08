@@ -1,0 +1,82 @@
+{
+  "config": {
+    "enabled": false,
+    "exemptRoles": [],
+    "exemptChannels": [],
+    "antiSpam": {
+      "enabled": true,
+      "maxMessages": 5,
+      "timeWindow": 5000,
+      "maxDuplicates": 3,
+      "deleteMessages": true
+    },
+    "antiLink": {
+      "enabled": true,
+      "blockAll": false,
+      "allowedDomains": [
+        "discord.com",
+        "discord.gg",
+        "youtube.com",
+        "youtu.be",
+        "github.com"
+      ],
+      "blockedDomains": [],
+      "allowPerms": [
+        "ManageMessages"
+      ]
+    },
+    "antiInvite": {
+      "enabled": true,
+      "blockDiscordInvites": true,
+      "allowVanity": false,
+      "whitelistServers": []
+    },
+    "bannedWords": {
+      "enabled": true,
+      "words": [],
+      "wildcards": true,
+      "caseSensitive": false,
+      "actions": {
+        "delete": true,
+        "warn": true,
+        "mute": false
+      }
+    },
+    "capsFilter": {
+      "enabled": true,
+      "minLength": 10,
+      "capsRatio": 0.7,
+      "maxCaps": 15
+    },
+    "mentionSpam": {
+      "enabled": true,
+      "maxMentions": 5,
+      "maxRoleMentions": 3,
+      "maxEveryone": 0
+    },
+    "emojiSpam": {
+      "enabled": true,
+      "maxEmojis": 8,
+      "maxCustomEmojis": 5
+    },
+    "zalgoFilter": {
+      "enabled": true,
+      "threshold": 0.3
+    },
+    "repeatedText": {
+      "enabled": true,
+      "minLength": 20,
+      "repetitionThreshold": 0.6
+    },
+    "punishments": {
+      "warnDuration": 86400000,
+      "muteDuration": 600000,
+      "escalate": true,
+      "notifyUser": true,
+      "logChannel": null
+    }
+  },
+  "violations": [],
+  "tempMutes": {},
+  "userHistory": {}
+}

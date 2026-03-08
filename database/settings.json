@@ -1,0 +1,47 @@
+{
+  "autorole": {
+    "humanRoles": [
+      "1477321347192328193"
+    ],
+    "botRoles": [
+      "1477321342885040269"
+    ],
+    "enabled": true
+  },
+  "logs": {
+    "enabled": true,
+    "channels": {},
+    "events": {
+      "messageDelete": true,
+      "messageEdit": true,
+      "messageBulkDelete": true,
+      "memberJoin": true,
+      "memberLeave": true,
+      "memberUpdate": true,
+      "memberBan": true,
+      "memberUnban": true,
+      "memberTimeout": true,
+      "voiceJoin": false,
+      "voiceLeave": false,
+      "voiceMove": false,
+      "voiceStream": false,
+      "voiceVideo": false,
+      "channelCreate": true,
+      "channelDelete": true,
+      "channelUpdate": true,
+      "roleCreate": true,
+      "roleDelete": true,
+      "roleUpdate": true,
+      "guildUpdate": true,
+      "emojiChanges": true,
+      "stickerChanges": true,
+      "inviteCreate": true,
+      "inviteDelete": true,
+      "moderationAction": true
+    }
+  },
+  "stats": {
+    "totalCommands": 11,
+    "messagesSeen": 11
+  }
+}
