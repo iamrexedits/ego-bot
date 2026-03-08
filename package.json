@@ -12,6 +12,11 @@
     "discord.js": "^14.14.1",
     "dotenv": "^16.6.1",
     "express": "^5.2.1"
+    "discord-player": "^6.6.8",
+    "@discord-player/extractor": "^4.4.7",
+    "ytdl-core": "^4.11.5",
+    "ffmpeg-static": "^5.2.0",
+    "opusscript": "^0.0.8"
   },
   "keywords": [
     "discord",
