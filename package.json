@@ -1,0 +1,23 @@
+{
+  "name": "discord-custom-bot",
+  "version": "1.0.0",
+  "description": "Custom Discord bot with modular architecture",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "modular"
+  ],
+  "author": "",
+  "license": "MIT"
+}
