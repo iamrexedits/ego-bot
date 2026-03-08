@@ -34,7 +34,9 @@ const baseConfig = {
         users: './database/users.json',
         guild: './database/guild.json',
         logs: './database/logs.json',
-        automod: './database/automod.json'
+        automod: './database/automod.json',
+        music: './database/music.json',
+        antinuke: './database/antinuke.json'
     },
     
     modules: {
