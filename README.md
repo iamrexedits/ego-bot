@@ -1,6 +1,6 @@
 
 # EGO
-EGO is a high-performance, community-driven All-In-One Discord bot framework built by Vermeil and Luna. Designed with a "plug-and-play" philosophy, EGO allows you to extend its functionality infinitely just by dropping a single file into a folder
+EGO is a high-performance, community-driven All-In-One Discord bot framework built by Vermeil(Akimi),Rex and Luna. Designed with a "plug-and-play" philosophy, EGO allows you to extend its functionality infinitely just by dropping a single file into a folder
 
 ## 🧩 The Core Philosophy
 Unlike monolithic bots where you have to navigate thousands of lines of code to add a feature, EGO uses a Class-Based Module System.
